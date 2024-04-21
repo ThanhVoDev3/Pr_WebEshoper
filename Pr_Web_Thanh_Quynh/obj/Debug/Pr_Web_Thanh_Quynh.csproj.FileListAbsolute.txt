@@ -1,0 +1,228 @@
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.dll.config
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.pdb
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.exe
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.exe.config
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.rsp
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.exe
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.exe.config
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.rsp
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.AppContext.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Collections.Immutable.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Console.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Globalization.Calendars.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.Compression.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.FileSystem.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Net.Http.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Net.Sockets.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Reflection.Metadata.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.ValueTuple.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XPath.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.exe
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.exe.config
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.rsp
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\VBCSCompiler.exe
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\VBCSCompiler.exe.config
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.Web.Infrastructure.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Helpers.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Mvc.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Razor.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Deployment.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Razor.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Razor.xml
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.xml
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Deployment.xml
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Razor.xml
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Helpers.xml
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Mvc.xml
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.csproj.AssemblyReference.cache
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.csproj.CoreCompileInputs.cache
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_T.6A31AF21.Up2Date
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.dll
+C:\1.PROJECT_OF THANH\TH_LTW\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.pdb
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.dll.config
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.pdb
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.exe
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.exe.config
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.rsp
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.exe
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.exe.config
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.rsp
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.AppContext.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Collections.Immutable.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Console.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Globalization.Calendars.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.Compression.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.FileSystem.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Net.Http.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Net.Sockets.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Reflection.Metadata.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.ValueTuple.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XPath.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.exe
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.exe.config
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.rsp
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\VBCSCompiler.exe
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\VBCSCompiler.exe.config
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.Web.Infrastructure.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Helpers.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Mvc.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Razor.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Deployment.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Razor.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Razor.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Deployment.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Razor.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Helpers.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Mvc.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.csproj.AssemblyReference.cache
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.csproj.CoreCompileInputs.cache
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_T.6A31AF21.Up2Date
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.pdb
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.SqlServer.dll
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.xml
+C:\1.PROJECT_OF THANH\DA_LTW_Eshoper\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.SqlServer.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.dll.config
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Pr_Web_Thanh_Quynh.pdb
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.exe
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.exe.config
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csc.rsp
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.exe
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.exe.config
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\csi.rsp
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Managed.Core.targets
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.AppContext.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Collections.Immutable.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Console.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Globalization.Calendars.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.Compression.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.FileSystem.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Net.Http.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Net.Sockets.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Reflection.Metadata.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.ValueTuple.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XmlDocument.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XPath.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.exe
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.exe.config
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\vbc.rsp
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\VBCSCompiler.exe
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\roslyn\VBCSCompiler.exe.config
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.SqlServer.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.Web.Infrastructure.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Helpers.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Mvc.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Razor.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Deployment.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Razor.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\EntityFramework.SqlServer.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Razor.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Deployment.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Webpages.Razor.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Helpers.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\System.Web.Mvc.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.csproj.AssemblyReference.cache
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.csproj.CoreCompileInputs.cache
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_T.6A31AF21.Up2Date
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\obj\Debug\Pr_Web_Thanh_Quynh.pdb
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\PagedList.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\PagedList.Mvc.dll
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\PagedList.xml
+F:\1.Work_Space\Lập Trình Web\Eshoper_Web\Pr_Web_Thanh_Quynh\Pr_Web_Thanh_Quynh\bin\PagedList.Mvc.xml

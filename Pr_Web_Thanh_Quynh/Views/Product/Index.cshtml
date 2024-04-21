@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Pr_Web_Thanh_Quynh.Models.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+<section id="advertisement">
+    <div class="container">
+        <img src="~/Content/images/shop/advertisement.jpg" alt="" />
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            @Html.Partial("_Menu_Left")
+            @Html.Partial("_Products")
+        </div>
+    </div>
+</section>

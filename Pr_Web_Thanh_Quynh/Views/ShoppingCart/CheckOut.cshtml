@@ -1,0 +1,134 @@
+﻿@using Pr_Web_Thanh_Quynh.Models;
+@{
+    ViewBag.Title = "CheckOut";
+}
+
+<section id="cart_items">
+    <div class="container">
+        <div class="breadcrumbs">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Check out</li>
+            </ol>
+        </div><!--/breadcrums-->
+        <div class="register-req">
+            <p>Please use Register And Checkout to easily get access to your order history, or use Checkout as Guest</p>
+        </div><!--/register-req-->
+
+        @using (Html.BeginForm("ProcessOder", "ShoppingCart", FormMethod.Post, new { id = "form" }))
+        {
+            @*Html.AntiForgeryToken()*@
+            <div class="shopper-informations">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="shopper-info">
+                            <p>Shopper Information</p>
+                            <form>
+                                <input type="text" name="cusName" placeholder="Name">
+                                <input type="number" name="cusPhone" placeholder="Phone">
+                                <input type="email" name="cusEmail" placeholder="Email">
+                                <input type="text" name="cusAddress" placeholder="Address">
+                            </form>
+                            <input type="submit" value="Process Order" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="review-payment">
+            <h2>Review & Payment</h2>
+        </div>
+
+        <div class="table-responsive cart_info">
+            @{
+                if (Session["Cart"] != null)
+                {
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr class="cart_menu">
+                                <td class="image">Item</td>
+                                <td class="description"> Name</td>
+                                <td class="price">Price</td>
+                                <td class="quantity">Quantity</td>
+                                <td class="total">Total</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var cart in (List<Cart>)Session["Cart"])
+                            {
+                                double p = Convert.ToDouble(cart.Product.ProPrice);
+                                int q = Convert.ToInt32(cart.Quantity);
+                                double subtotal = p * q;
+                                <tr>
+                                    <td class="cart_product">
+                                        <a href=""><img src="~/Content/images/shop/@cart.Product.ProImage" alt="" style="height: 200px"></a>
+                                    </td>
+                                    <td class="cart_description">
+                                        <h4>@cart.Product.ProName</h4>
+                                    </td>
+                                    <td class="cart_price">
+                                        <p>@Html.FormatValue(cart.Product.ProPrice, "{0:C}")</p>
+                                    </td>
+                                    <td class="cart_quantity">
+                                        <div class="cart_quantity_button">
+                                            <p>@cart.Quantity</p>
+                                        </div>
+                                    </td>
+                                    <td class="cart_total">
+                                        <p class="cart_total_price">@Html.FormatValue(subtotal, "{0:C}")</p>
+                                    </td>
+                                </tr>
+                            }
+                            <tr>
+                                @{
+                                    List<Cart> temp = (List<Cart>)Session["Cart"];
+                                    var total = temp.Sum(x => x.Quantity * x.Product.ProPrice);
+                                }
+                                <td colspan="4">&nbsp;</td>
+                                <td colspan="2">
+                                    <table class="table table-condensed total-result">
+                                        <tr>
+                                            <td>Total</td>
+                                            <td><span>@Html.FormatValue(total, "{0:C}")</span></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <h4> No item your cart</h4>
+
+                }
+            }
+            <a href="@Url.Action("Index", "ShoppingCart")" class="btn btn-warning fixed-bottom">Quay lại giỏ hàng</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("form").validate({
+                rules: {
+                    cusName: {
+                        required: true
+                    },
+                    cusPhone: {
+                        required: true
+                    },
+                    cusEmail: {
+                        required: true,
+                        email: true // Add email validation
+                    },
+                    cusAddress: {
+                        required: true
+                    }
+                },
+                messages: {
+                    cusEmail: "Please enter a valid email address"
+                }
+            });
+        });
+    </script>
+
+</section> <!--/#cart_items-->

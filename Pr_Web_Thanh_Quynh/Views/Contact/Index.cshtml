@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="~/Content/css/Contact/Contact.css" rel="stylesheet" />
+</head>
+<body>
+ <!-- Container (Contact Section) -->
+    <div class="container-fluid bg-grey">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Please contact us and we will get back to you within 24 hours</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>145/6 Tran Ba Giao, Phuong 5, Go Vap</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +0962.348.984</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Thanhhit03@gmail.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.704865635694!2d106.6867991752374!3d10.833882958130921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528580d0801cf%3A0x97833f9a1acaff20!2zMTQ1LzYgxJAuIFRy4bqnbiBCw6EgR2lhbywgUGjGsOG7nW5nIDUsIEfDsiBW4bqlcCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1710910400849!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>

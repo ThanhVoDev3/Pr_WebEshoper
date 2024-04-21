@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Pr_Web_Thanh_Quynh.Models.Product>
+
+<div class="col-sm-9 padding-right">
+    <div class="features_items">
+        <!--features_items-->
+        <h2 class="title text-center">Features Items</h2>
+        @{
+            int itemCount = 0;
+
+            foreach (var item in Model)
+            {
+                if (itemCount < 6)
+                {
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <a href="@Url.Action("Details", new {id = item.ProId})">
+                                        <img src="~/Content/images/shop/@item.ProImage" alt="" style="height: 250px" />
+                                        <h2>$@item.ProPrice</h2>
+                                        <h5>@item.Category.CatName</h5>
+                                        <p>@item.ProName</p>
+                                    </a>
+                                    <a href="@Url.Action("OrderNow","ShoppingCart", new {Id = item.ProId}, null)" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    itemCount++;
+                }
+            }
+        }
+
+    <ul class="pagination">
+
+    </ul>
+
+    </div><!--features_items-->
+</div>

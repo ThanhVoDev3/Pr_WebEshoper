@@ -1,0 +1,74 @@
+﻿@model Pr_Web_Thanh_Quynh.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<section>
+    <div class="container">
+        <div class="row">
+            @Html.Partial("_Menu_Left")
+
+            <div class="col-sm-9 padding-right">
+                <div class="product-details">
+                    <!--product-details-->
+                    <div class="col-sm-5">
+                        <div class="view-product">
+                            <img src="~/Content/images/shop/@Model.ProImage" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="product-information">
+                            <!--/product-information-->
+                            <img src="~/Content/images/product-details/new.jpg" class="newarrival" alt="" />
+                            <h2>@Model.ProName</h2>
+                            <p>@Model.Category.CatName</p>
+                            <span>
+                                <span>@Model.ProPrice</span>
+                                <label>Quantity:</label>
+                                <input id="quantity" type="number" value="1" min="1" />
+                                <button id="addToCartBtn" type="button" class="btn btn-default cart" onclick="addToCart(@Model.ProId)">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    Add to cart
+                                </button>
+                                <span id="cartFeedback"></span>
+                            </span>
+                        </div><!--/product-information-->
+                    </div>
+                </div><!--/product-details-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function addToCart(productId) {
+    var quantity = $("#quantity").val();
+    // Kiểm tra nếu số lượng là số nguyên dương
+    if (quantity <= 0 || !Number.isInteger(parseInt(quantity))) {
+        alert('Vui lòng nhập số lượng hợp lệ.');
+        return;
+    }
+    // Disable nút để tránh nhiều lần nhấn
+    $("#addToCartBtn").prop('disabled', true);
+    // Gửi yêu cầu AJAX đến action AddToCart
+    $.ajax({
+        url: '@Url.Action("AddToCart", "Product")',
+        type: 'POST',
+        data: { productId: productId, quantity: quantity },
+        success: function (result) {
+            // Kích hoạt lại nút
+            $("#addToCartBtn").prop('disabled', false);
+            // Cung cấp phản hồi cho người dùng
+            $("#cartFeedback").html('<span style="color: green;">Sản phẩm đã được thêm vào giỏ hàng thành công!</span>');
+        },
+        error: function () {
+            // Kích hoạt lại nút
+            $("#addToCartBtn").prop('disabled', false);
+            // Cung cấp phản hồi lỗi
+            $("#cartFeedback").html('<span style="color: red;">Đã xảy ra lỗi khi thêm sản phẩm vào giỏ hàng!</span>');
+        }
+    });
+}
+
+</script>
