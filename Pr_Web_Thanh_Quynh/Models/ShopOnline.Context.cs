@@ -31,5 +31,6 @@ namespace Pr_Web_Thanh_Quynh.Models
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Product_Category> Product_Category { get; set; }
+        public virtual DbSet<Blog> Blogs { get; set; }
     }
 }

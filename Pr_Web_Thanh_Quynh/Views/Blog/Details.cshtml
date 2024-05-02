@@ -1,0 +1,32 @@
+﻿@model Pr_Web_Thanh_Quynh.Models.Blog
+
+<section>
+    <div class="container">
+        <div class="row">
+            @*@Html.Partial("_Menu_Blog")*@
+            <div class="col-sm-9">
+                <div class="blog-post-area">
+                    <h2 class="title text-center">Latest From our Blog</h2>
+                    <div class="single-blog-post">
+                        <h3>@Model.Title</h3>
+                        <div class="post-meta">
+                            <ul>
+                                <li><i class="fa fa-clock-o"></i> @Model.CreatedDate</li>
+                                <li><i class="fa fa-calendar"></i> @Model.CreatedDate</li>
+                            </ul>
+                        </div>
+                        <a href="@Url.Action("Details", "Blog", new { id = Model.BlogId })">
+                            <img src="~/Content/images/blog/@Model.ImageUrl" alt="@Model.Title" style="width: 550px; height: 400px">
+                        </a>
+                        <p>@Html.Raw(Model.Content)</p>
+                        <div class="pager-area">
+                            <ul class="pager pull-right">
+                                @* Like Comment *@
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,4 +1,7 @@
 ﻿@model IEnumerable<Pr_Web_Thanh_Quynh.Models.Product>
+@*@model PagedList.IPagedList<Pr_Web_Thanh_Quynh.Models.Product>
+@using PagedList.Mvc;*@
+
 
 <div class="col-sm-9 padding-right">
     <div class="features_items">
@@ -31,9 +34,9 @@
             }
         }
 
-    <ul class="pagination">
-
-    </ul>
+        <ul class="pagination">
+            @*@Html.PagedListPager(Model, page => Url.Action("Index", new { page, categoryId = ViewBag.CategoryId }))*@
+        </ul>
 
     </div><!--features_items-->
 </div>

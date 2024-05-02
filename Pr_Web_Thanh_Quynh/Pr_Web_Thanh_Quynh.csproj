@@ -122,6 +122,9 @@
     <Content Include="Content\images\blog\blog-one.jpg" />
     <Content Include="Content\images\blog\blog-three.jpg" />
     <Content Include="Content\images\blog\blog-two.jpg" />
+    <Content Include="Content\images\blog\keGiaDeGiay.jpg" />
+    <Content Include="Content\images\blog\keMyPhamTrangDiem.jpg" />
+    <Content Include="Content\images\blog\keTiviPhongCachBacAu.png" />
     <Content Include="Content\images\blog\man-four.jpg" />
     <Content Include="Content\images\blog\man-one.jpg" />
     <Content Include="Content\images\blog\man-three.jpg" />
@@ -381,7 +384,6 @@
     <Compile Include="Areas\Admin\Controllers\NewProductsController.cs" />
     <Compile Include="Areas\Admin\Controllers\OrdersController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
-    <Compile Include="Controllers\BlogSingleController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -390,6 +392,9 @@
     <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Blog.cs">
+      <DependentUpon>ShopOnline.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\Category.cs">
@@ -401,6 +406,7 @@
     <Compile Include="Models\OrderDetail.cs">
       <DependentUpon>ShopOnline.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\OrderInfo.cs" />
     <Compile Include="Models\Product.cs">
       <DependentUpon>ShopOnline.tt</DependentUpon>
     </Compile>
@@ -467,7 +473,6 @@
     <Content Include="Views\Error\Index.cshtml" />
     <Content Include="Views\Blog\Index.cshtml" />
     <Content Include="Views\Shared\_Menu_Blog.cshtml" />
-    <Content Include="Views\BlogSingle\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Product\Details.cshtml" />
@@ -475,7 +480,8 @@
     <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\ShoppingCart\CheckOut.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
-    <Content Include="Views\ShoppingCart\ProcessOrder.cshtml" />
+    <Content Include="Views\Blog\Details.cshtml" />
+    <Content Include="Views\ShoppingCart\OrderSuccess.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

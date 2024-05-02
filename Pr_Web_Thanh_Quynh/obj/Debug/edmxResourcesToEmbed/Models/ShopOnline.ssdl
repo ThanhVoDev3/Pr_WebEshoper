@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Blog">
+    <Key>
+      <PropertyRef Name="BlogId" />
+    </Key>
+    <Property Name="BlogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="ImageUrl" Type="nvarchar" MaxLength="255" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
   <EntityType Name="Category">
     <Key>
       <PropertyRef Name="Id" />
@@ -62,7 +72,7 @@ warning 6002: The table/view 'ESHOP_DB.dbo.Product_Category' does not have a pri
     <Property Name="CatId" Type="int" />
     <Property Name="CatName" Type="nvarchar" MaxLength="50" />
   </EntityType>
-  <Association Name="FK__OrderDeta__Order__2A4B4B5E">
+  <Association Name="FK__OrderDeta__Order__5165187F">
     <End Role="Order" Type="Self.Order" Multiplicity="1" />
     <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
     <ReferentialConstraint>
@@ -74,7 +84,7 @@ warning 6002: The table/view 'ESHOP_DB.dbo.Product_Category' does not have a pri
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__OrderDeta__Produ__2B3F6F97">
+  <Association Name="FK__OrderDeta__Produ__52593CB8">
     <End Role="Product" Type="Self.Product" Multiplicity="1" />
     <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
     <ReferentialConstraint>
@@ -86,7 +96,7 @@ warning 6002: The table/view 'ESHOP_DB.dbo.Product_Category' does not have a pri
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Product__CatId__2E1BDC42">
+  <Association Name="FK__Product__CatId__534D60F1">
     <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
     <End Role="Product" Type="Self.Product" Multiplicity="*" />
     <ReferentialConstraint>
@@ -99,6 +109,7 @@ warning 6002: The table/view 'ESHOP_DB.dbo.Product_Category' does not have a pri
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="Blog" EntityType="Self.Blog" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="OrderDetail" EntityType="Self.OrderDetail" Schema="dbo" store:Type="Tables" />
@@ -114,15 +125,15 @@ warning 6002: The table/view 'ESHOP_DB.dbo.Product_Category' does not have a pri
     [Product_Category].[CatName] AS [CatName]
     FROM [dbo].[Product_Category] AS [Product_Category]</DefiningQuery>
     </EntitySet>
-    <AssociationSet Name="FK__OrderDeta__Order__2A4B4B5E" Association="Self.FK__OrderDeta__Order__2A4B4B5E">
+    <AssociationSet Name="FK__OrderDeta__Order__5165187F" Association="Self.FK__OrderDeta__Order__5165187F">
       <End Role="Order" EntitySet="Order" />
       <End Role="OrderDetail" EntitySet="OrderDetail" />
     </AssociationSet>
-    <AssociationSet Name="FK__OrderDeta__Produ__2B3F6F97" Association="Self.FK__OrderDeta__Produ__2B3F6F97">
+    <AssociationSet Name="FK__OrderDeta__Produ__52593CB8" Association="Self.FK__OrderDeta__Produ__52593CB8">
       <End Role="Product" EntitySet="Product" />
       <End Role="OrderDetail" EntitySet="OrderDetail" />
     </AssociationSet>
-    <AssociationSet Name="FK__Product__CatId__2E1BDC42" Association="Self.FK__Product__CatId__2E1BDC42">
+    <AssociationSet Name="FK__Product__CatId__534D60F1" Association="Self.FK__Product__CatId__534D60F1">
       <End Role="Category" EntitySet="Category" />
       <End Role="Product" EntitySet="Product" />
     </AssociationSet>

@@ -17,7 +17,7 @@ namespace Pr_Web_Thanh_Quynh.Controllers
         {
             return View();
         }
-
+        // Thêm sản phẩm vào giỏ hàng
         public ActionResult Ordernow(int? Id)
         {
             if (Id == null)
@@ -44,6 +44,7 @@ namespace Pr_Web_Thanh_Quynh.Controllers
             }
             return RedirectToAction("Index");
         }
+        // Kiểm Tra sp đã thêm vào giỏ hàng chưa , nếu rồi thì chỉ cập nhật lại số lượng
         public int IsExistingCheck(int? Id)
         {
             List<Cart> ListCart = (List<Cart>)Session[strCart];
@@ -54,6 +55,7 @@ namespace Pr_Web_Thanh_Quynh.Controllers
             }
             return -1;
         }
+        // Xóa 
         public ActionResult RemoveItem(int? Id)
         {
             if (Id == null)
@@ -73,6 +75,7 @@ namespace Pr_Web_Thanh_Quynh.Controllers
             }
             return RedirectToAction("Index");
         }
+        // Cập Nhật Giỏ Hàng
 
         [HttpPost]
         public ActionResult UpdateCart(FormCollection field)
@@ -86,6 +89,7 @@ namespace Pr_Web_Thanh_Quynh.Controllers
             Session[strCart] = ListCart;
             return RedirectToAction("Index");
         }
+        // Xóa Toàn Bộ Sản Phẩm
         public ActionResult ClearCart()
         {
             Session[strCart] = null;
@@ -98,36 +102,98 @@ namespace Pr_Web_Thanh_Quynh.Controllers
         [HttpPost]
         public ActionResult ProcessOrder(FormCollection field)
         {
-            List<Cart> ListCart = (List<Cart>)Session[strCart];
+            //List<Cart> ListCart = (List<Cart>)Session[strCart];
 
-            var order = new Pr_Web_Thanh_Quynh.Models.Order()
-            {
-                CustomerName = field["cusName"],
-                CustomerPhone = field["cusPhone"],
-                CustomerEmail = field["CusEmail"],
-                CustomerAddress = field["cusAddress"],
-                OrderDate = DateTime.Now,
-                PaymentType = "Cash",
-                Status = "processing"
+            //var order = new Pr_Web_Thanh_Quynh.Models.Order()
+            //{
+            //    CustomerName = field["cusName"],
+            //    CustomerPhone = field["cusPhone"],
+            //    CustomerEmail = field["CusEmail"],
+            //    CustomerAddress = field["cusAddress"],
+            //    OrderDate = DateTime.Now,
+            //    PaymentType = "Cash",
+            //    Status = "processing"
 
-            };
-            dBContext.Orders.Add(order);
-            dBContext.SaveChanges();
-            foreach (Cart cart in ListCart)
+            //};
+            //dBContext.Orders.Add(order);
+            //dBContext.SaveChanges();
+            //foreach (Cart cart in ListCart)
+            //{
+            //    OrderDetail orderDetail = new OrderDetail()
+            //    {
+            //        OrderId = order.OrderId,
+            //        ProductId = cart.Product.ProId,
+            //        Quantity = Convert.ToInt32(cart.Quantity),
+            //        Price = Convert.ToDouble(cart.Product.ProPrice)
+            //    };
+            //    dBContext.OrderDetails.Add(orderDetail);
+            //    dBContext.SaveChanges();
+            //}
+            //Session.Remove(strCart);
+
+            //return View("OrderSuccess");
+            // Kiểm tra dữ liệu đầu vào từ FormCollection
+            // Kiểm tra dữ liệu đầu vào từ FormCollection
+            if (field == null)
             {
-                OrderDetail orderDetail = new OrderDetail()
-                {
-                    OrderId = order.OrderId,
-                    ProductId = cart.Product.ProId,
-                    Quantity = Convert.ToInt32(cart.Quantity),
-                    Price = Convert.ToDouble(cart.Product.ProPrice)
-                };
-                dBContext.OrderDetails.Add(orderDetail);
-                dBContext.SaveChanges();
+                TempData["ErrorMessage"] = "Dữ liệu đầu vào không hợp lệ";
+                return RedirectToAction("Checkout");
             }
-            Session.Remove(strCart);
 
-            return View("OrderSuccess");
+            List<Cart> ListCart = (List<Cart>)Session[strCart];
+            if (ListCart == null || ListCart.Count == 0)
+            {
+                TempData["ErrorMessage"] = "Giỏ hàng của bạn đang trống";
+                return RedirectToAction("Checkout");
+            }
+
+            using (var dbContext = new ProductDBContext())
+            {
+                try
+                {
+                    string orderName = string.Join(", ", ListCart.Select(cart => cart.Product.ProName));
+
+                    Order order = new Order
+                    {
+                        CustomerName = field["cusName"],
+                        CustomerPhone = field["cusPhone"],
+                        CustomerEmail = field["cusEmail"],
+                        CustomerAddress = field["cusAddress"],
+                        OrderDate = DateTime.Now,
+                        PaymentType = "Cash",
+                        Status = "processing",
+                        OrderName = orderName
+                    };
+
+                    dbContext.Orders.Add(order);
+                    dbContext.SaveChanges();
+
+                    foreach (Cart cart in ListCart)
+                    {
+                        OrderDetail orderDetail = new OrderDetail()
+                        {
+                            OrderId = order.OrderId,
+                            ProductId = cart.Product.ProId,
+                            Quantity = Convert.ToInt32(cart.Quantity),
+                            Price = Convert.ToDouble(cart.Product.ProPrice)
+                        };
+                        dbContext.OrderDetails.Add(orderDetail);
+                    }
+
+                    Session.Remove(strCart);
+
+                    return View("OrderSuccess");
+                }
+                catch (Exception ex)
+                {
+                    TempData["ErrorMessage"] = "Có lỗi xảy ra khi xử lý đơn hàng: " + ex.Message;
+                    return RedirectToAction("Checkout");
+                }
+            }
+        }
+        public ActionResult OrderSuccess()
+        {
+            return View(); // Trả về view "OrderSuccess"
         }
     }
 }

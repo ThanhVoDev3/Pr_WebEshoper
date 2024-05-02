@@ -121,5 +121,16 @@
       <End Role="Product" EntitySet="Products" />
       <End Role="OrderDetail" EntitySet="OrderDetails" />
     </AssociationSet>
+    <EntitySet Name="Blogs" EntityType="Models.Blog" />
   </EntityContainer>
+  <EntityType Name="Blog">
+    <Key>
+      <PropertyRef Name="BlogId" />
+    </Key>
+    <Property Name="BlogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ImageUrl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
 </Schema>
